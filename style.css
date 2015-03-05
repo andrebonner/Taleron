@@ -1,0 +1,583 @@
+/*
+Theme Name: Taleron
+Theme URI: http://andrebonner.com/wordpress/taleron
+Author: Andre Bonner
+Author URI: http://andrebonner.com/
+Description: In Taleron, my custom theme.
+Version: 1.0
+Text Domain: taleron
+
+*/
+
+html{
+	font-size: 0.875em;
+}
+
+body{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.45;	
+	min-width: 800px;
+	width: 100%;
+	min-height: 600px;
+	height: auto;
+	margin: 0;
+	background-color: #F6F6F6;
+	background-image: url('images/nice-snow.png');
+	background-size:cover;
+}
+a{
+	color: #B63034;
+	text-decoration:none;
+	transition: opacity 2.25s ease-in-out;
+   	-moz-transition: opacity 2.25s ease-in-out;
+   	-webkit-transition: opacity 2.25s ease-in-out;	
+}
+a:hover{
+	color: #B63034;
+	text-decoration:underline;
+}
+p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:1em;
+	color: #565656;
+	line-height: 1.6em;
+	padding-bottom: 1em;
+}
+
+#wrapper{
+	margin: 0 10px;
+	min-height: 420px;
+	height: 100%;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	padding-left: 28px;
+	padding-right: 28px;
+	
+}
+
+header{
+	zoom: 1;
+	margin-top: 0;
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #700a20;
+	background-image: url('images/header-bg.jpg');
+	background-size:cover;
+}
+
+header #head-info{
+	margin-left: 60px;
+	margin-right: 60px;
+	min-height: 100px;
+	padding-top: 40px;
+}
+header h1{
+	margin:0;
+	padding: 0;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	text-transform:uppercase;
+	font-size: 50px;
+}
+
+header a image{
+	padding-top: 20px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;	
+}
+
+header h5{
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	visibility: hidden;
+}
+
+header nav{
+	padding: 0;	
+}
+
+#menu-primary-links{
+	
+}
+
+header .menu {
+	margin: 0;
+	background-color: #b31133;
+	padding-top: 1%;
+	min-height: 30px;
+	text-shadow: -1px 0 0 rgba(1,1,1,.2);
+}
+
+header .menu li{
+	margin: 10px;
+	list-style: none;
+	display: inline;
+	padding-right: 20px;
+}
+
+header .current_page_item a, header .current-page-ancestor a
+{
+	border-color: #f7be2f;
+	border-bottom-style: solid;
+	border-bottom-width: 5px 
+}
+
+header .menu a:hover{
+	border-color: #f7be2f;
+	border-bottom-style: solid;
+	border-bottom-width: 5px 
+}
+
+header .menu a{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 0.85em;
+	letter-spacing: 0.07em;
+	color: #fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin: 0px;
+	padding: 7px 3px;	; 
+}
+
+section{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+ 	width: 60%;
+	min-width: 500px;
+}
+section:last-child{
+	margin-bottom:60px;
+}
+
+.post{
+	margin-right: 20px;
+	padding-left : 20px;
+	padding-right: 20px;
+	border-top: solid 6px #b31133;
+	border-left: solid 1px #CDD4CD;
+	border-right: solid 1px #CDD4CD;
+	border-bottom: solid 1px #CDD4CD;
+	background-color: #fff;
+	box-shadow: 0 0 3px #dbdbdd;
+}
+.post h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1.777em;
+	color: #373a37;
+	text-decoration:none;
+	text-transform: none;
+}
+.post h1 a{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #373a37;
+	text-decoration:none;
+	text-transform: none;
+}
+.post h1 a:hover{
+	text-decoration: underline;
+}
+section .post img{
+	max-width: 100%;
+	height:auto;
+}
+section .post h1, section .post h2, section .post h3, section .post h4, section .post h5, section .post h6{
+	margin: 1.414em 0 0.5em;
+	text-transform:uppercase;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+}
+.full-width{
+	width: 90%;
+	min-width: 800px;
+}
+
+.full-width nav {
+	width: 100%;
+}
+
+.full-width #page{
+	width: 100%;
+}
+
+#updates{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 20px;
+	border: solid 1px #CDD4CD;
+	box-shadow: 0 0 3px #dbdbdd;
+	background-color:#FFF;
+}
+#updates a:hover{
+	text-decoration:underline;
+}
+#updates h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	position:relative;
+	display: inline-block;
+	padding: 3px 30px;
+	font-size: 1.333em;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #000;
+}
+
+#updates div{
+	
+	
+}
+
+.itemblock{	
+	padding: 6px 0;
+ 	width: 100%;
+	min-width: 400px;
+	min-height: 40px;
+	border-bottom: thin solid #b0b0b0;
+}
+
+.itemheadblock {
+	padding: 8px 10px 0 0;
+}
+
+.itemendblock{
+	padding: 8px 0;
+	margin-bottom: 28px;
+}
+
+.item{
+	padding-left: 30px;
+	line-height: 1.1em;
+}
+
+.item a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.85em;
+	text-decoration: none;
+	color: #B63034;
+}
+
+.itemhead{
+	padding: 6px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #343733;
+}
+
+.itemnum{
+	box-sizing:border-box;
+	float: left;
+	height: 18px;
+	width: 18px;
+	border-radius: 13px;
+	background-color: #000;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 11px;
+	color: #fff; 
+	text-align:center;
+	padding-top:2px;
+}
+
+.itemnull{
+	float:left;
+	width: 2%;
+	border-radius: 7px;
+	margin: 0 10px;
+	text-align:center;
+}
+.publishdate{
+	padding-top: 5px;
+	width: 90%;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.85em;
+	color: #545454;
+}
+
+#child-links{
+	margin: 18px 8px;
+	padding: 0;
+}
+
+#child-links span a{
+	color: #b61235;
+}
+
+#child-links ul{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#child-links li{
+	list-style:none;
+	display: inline;
+	margin-right: 20px;
+}
+
+#child-links li a{
+	color: #5a5e5d;
+}
+
+#child-links a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:0.75em;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+#child-links .current_page_item a{
+	border-bottom: 1px solid #ddd;
+	cursor: default;
+}
+
+
+#page{
+	width: 500px;  
+}
+section #page h1, 
+section #page h2, 
+section #page h3, 
+section #page h4 {
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+}
+
+section #page h1{
+	font-weight: 300;
+	font-size: 2.369em;
+}
+section #page a{
+	font-weight: 300;
+	color: #B63034;
+}
+.resource-documents{
+	float: left;
+	width: 60%;
+	min-width: 500px;
+	margin: 20px 0; 
+	padding-bottom: 20px;
+	border-bottom: #000 thin dotted;	
+}
+
+.resource-image{
+	zoom:1;
+	float: left;
+	width: 163px;
+	height: 196px;
+	background-image: url('images/report-overlay-bg.png');
+	box-sizing: border-box;
+	margin-top:20px;
+	padding-left:12px;
+	padding-top:2px;
+}
+
+.resource-image-side{
+	zoom:1;
+	width: 163px;
+	height: 196px;
+	background-image: url('images/report-overlay-bg.png');
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	margin:auto;
+	margin-top:40px;
+	padding-top:2px;
+}
+
+.wp-post-image{
+	margin: 0;
+}
+.attachment-banner-image {
+	max-width: 100%;
+	margin-top:20px;
+}
+.resource-info{
+	margin-top:40px;
+}
+
+.resource-info p{
+	
+}
+aside{
+	float: right;
+	margin-right: 10px;
+	min-width: 200px;
+	width: 35%;
+	margin-top: 15px;
+}
+
+aside article{
+	text-align:center;
+	vertical-align:middle;
+	padding-bottom: 20px;
+	border-bottom: #000 thin dotted;
+}
+
+aside article h5{
+	/* Droid Sans Bold 11px, #434343*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #434343;
+}
+
+aside sub {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:400;
+	font-size:0.75em;
+	color: #a3a5a6;
+}
+
+aside p{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:400;
+	font-size:0.75em;
+	color:#767b7b;
+	padding-bottom: 10px;	
+}
+
+aside span{
+	margin: 10px 0;
+}
+
+span .button{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:400;
+	font-size: 0.85em;
+	color: #999;
+	text-decoration:none;
+	text-transform: uppercase;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 0 5px;	
+}
+
+span .button:hover{
+	background-color: #6e0206;
+	color: #fff;
+}
+
+footer{
+	width: 100%;
+	background-color: #8b0e28;
+	color:#FFF;
+}
+footer p{
+	color:#FFF;
+}
+
+footer #title-info{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	float:left;
+	color: #fff;
+}
+footer #title-info h2{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	margin:0;
+}
+
+footer #title-info p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:0.75em;
+	font-weight:400;
+	text-transform:uppercase;
+	margin:0;
+}
+#title-info h2+p {
+	margin-top:10px;
+	font-size:1em;
+}
+footer .menu{
+	float: right;
+	margin: 6px;
+	padding: 6px 2px; 
+}
+footer .menu a{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 0.85em;
+	letter-spacing: 0.07em;
+	color: #fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-left: 10px;
+	padding: 11px 3px;	; 
+}
+
+footer .current_page_item a, footer .current-page-ancestor a{
+	border-color: #f7be2f;
+	border-top-style: solid;
+	border-top-width: 5px 
+}
+
+
+footer .menu a:hover{
+	border-color: #f7be2f;
+	border-top-style: solid;
+	border-top-width: 5px 
+}
+footer .menu li{
+	margin:10px;
+	list-style: none;
+	display: inline;
+	padding: 20px 2px;	
+}
+footer #copyright{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:0.75em;
+	background-color: #530615;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0;
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+footer .col1{
+	float: left;
+	display:inline;
+	width: 60%;
+	padding-left: 50px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+
+footer .col2{
+	display: inline;
+	font-family: 'Droid Sans', sans-serif;
+	padding-right: 50px;
+}
+
+footer #copyright p{
+	font-family: 'Droid Sans', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+footer .col1 p{
+	
+
+}
+
+footer .col2 p{
+	text-align:right;
+}
+
+.clearfix{
+	clear:both;
+}
+/*style.css*/
